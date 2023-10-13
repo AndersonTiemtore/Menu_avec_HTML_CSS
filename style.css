@@ -1,5 +1,28 @@
-nav
-{
-    display: flex;
-   
-}
+/* Style de base pour la liste non ordonnée (ul) du menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style des éléments de la liste (li) du menu */
+  li {
+    display: inline; /* Afficher les éléments côte à côte */
+    margin-right: 10px; /* Espacement entre les éléments */
+  }
+  
+  /* Style des liens (a) du menu */
+  li a {
+    text-decoration: none; /* Supprimer la soulignement par défaut des liens */
+    padding: 5px 10px; /* Espacement intérieur pour les liens */
+    border: 1px solid #333; /* Bordure autour des liens */
+    background-color: #444; /* Couleur d'arrière-plan */
+    color: #fff; /* Couleur du texte */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  /* Style des liens au survol de la souris */
+  li a:hover {
+    background-color: #555; /* Couleur d'arrière-plan au survol */
+  }
+  
