@@ -3,12 +3,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   
   /* Style des éléments de la liste (li) du menu */
   li {
     display: inline; /* Afficher les éléments côte à côte */
-    margin-right: 10px; /* Espacement entre les éléments */
+    margin-right: 50px; /* Espacement entre les éléments */
   }
   
   /* Style des liens (a) du menu */
