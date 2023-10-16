@@ -27,3 +27,8 @@ ul {
     background-color: #555; /* Couleur d'arrière-plan au survol */
   }
   
+.lorem
+{
+    margin-top: 50px;
+    background-color: chartreuse;
+}
